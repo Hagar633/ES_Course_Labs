@@ -1,0 +1,12 @@
+main
+	LED_Init
+		GPIO_SetPinDirection
+	SWITCH_Init
+		GPIO_SetPinDirection
+	EXT_INT0_Init
+		GPIO_SetPinDirection
+	EXT_INT0_SetEdge
+	EXT_INT0_SetCallback
+	EXT_INT0_Enable
+interrupt
+	____DoIFC
