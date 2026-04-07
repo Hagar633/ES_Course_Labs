@@ -1,0 +1,15 @@
+main
+	__CC2DW
+		____DoICP
+	GPIO_SetPinDirection
+	PWM_Init
+		GPIO_SetPinDirection
+	PWM_SetDuty
+		Mul_16X16_U
+		Div_16x16_S
+			Div_16x16_S_L
+	EXT_INT0_Init
+		GPIO_SetPinDirection
+	EXT_INT0_SetEdge
+	EXT_INT0_SetCallback
+	EXT_INT0_Enable

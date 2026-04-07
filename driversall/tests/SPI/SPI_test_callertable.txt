@@ -1,0 +1,10 @@
+main
+	SPI_InitMaster
+		SPI_SetMode
+		GPIO_SetPinDirection
+		GPIO_SetPinValue
+	SPI_MasterSelectSlave
+		GPIO_SetPinValue
+	SPI_Transfer
+	SPI_MasterDeselectSlave
+		GPIO_SetPinValue

@@ -1,0 +1,4 @@
+main
+	SPI_InitSlave
+		SPI_SetMode
+		GPIO_SetPinDirection

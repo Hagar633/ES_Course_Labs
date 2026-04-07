@@ -1,0 +1,14 @@
+main
+	__CC2DW
+		____DoICP
+	LED_Init
+		GPIO_SetPinDirection
+	LED_Off
+		GPIO_SetPinValue
+	TIMER0_Init
+	TIMER0_SetCallback
+	LED_Toggle
+		GPIO_GetPinValue
+		GPIO_SetPinValue
+interrupt
+	____DoIFC

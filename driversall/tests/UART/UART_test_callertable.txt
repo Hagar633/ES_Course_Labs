@@ -1,0 +1,11 @@
+main
+	__CC2DW
+		____DoICP
+	UART_TX_Init
+		GPIO_SetPinDirection
+	UART_RX_Init
+		GPIO_SetPinDirection
+	UART_Write
+	GPIO_SetPinDirection
+	GPIO_SetPinValue
+interrupt

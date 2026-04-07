@@ -1,0 +1,16 @@
+main
+	__CC2DW
+		____DoICP
+	ADC_Init
+	UART_TX_Init
+		GPIO_SetPinDirection
+	ADC_Read
+	Mul_8X8_U
+	Mul_16X16_U
+	Div_16x16_S
+		Div_16x16_S_L
+	UART_SendString
+		UART_Write
+	UART_SendNumber
+		UART_Write
+		Div_8X8_U

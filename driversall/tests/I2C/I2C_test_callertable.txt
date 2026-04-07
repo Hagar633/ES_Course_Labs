@@ -1,0 +1,10 @@
+main
+	GPIO_Init
+	I2C_Init
+		GPIO_SetPinDirection
+	I2C_Start
+		I2C_Wait
+	I2C_Write
+		I2C_Wait
+	I2C_Stop
+		I2C_Wait
